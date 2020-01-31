@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Yatzee
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            StartMenu title = new StartMenu();
+            title.TitleName();
+            Console.ReadLine();
+
+        }
+    }
+}
